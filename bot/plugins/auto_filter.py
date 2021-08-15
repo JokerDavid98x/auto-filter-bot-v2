@@ -203,7 +203,7 @@ async def auto_filter(bot, update):
         try:
             await bot.send_message(
                 chat_id = update.chat.id,
-                text=f"Found {(len_results)} Results For Your Query: <code>{query}</code>",
+                text=f"Found {(len_results)} 👇താഴെ കാണുന്ന ചാനലിൽ ജോയിൻ ചെയിത ശേഷം താഴെയുള്ള ബട്ടണിൽ ക്ലിക്ക് ചെയ്യുക,എന്നാൽ മാത്രമേ ലിങ്ക് വർക്ക് ചെയ്യൂ..!!!👇: <code>{query}</code>",
                 reply_markup=reply_markup,
                 parse_mode="html",
                 reply_to_message_id=update.message_id
