@@ -142,7 +142,7 @@ async def cb_navg(bot, update: CallbackQuery):
     
     reply_markup = InlineKeyboardMarkup(temp_results)
     
-    text=f"<i>Found</i> <code>{leng}</code> <i>Results For Your Query:</i> <code>{query}</code>"
+    text=f"<i>Found</i> <code>{leng}</code> <i>👇താഴെ കാണുന്ന ചാനലിൽ ജോയിൻ ചെയിത ശേഷം താഴെയുള്ള ബട്ടണിൽ ക്ലിക്ക് ചെയ്യുക,എന്നാൽ മാത്രമേ ലിങ്ക് വർക്ക് ചെയ്യൂ..!!!👇:</i> <code>{query}</code>"
         
     try:
         await update.message.edit(
